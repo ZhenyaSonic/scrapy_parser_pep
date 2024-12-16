@@ -4,7 +4,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 BOT_NAME = 'pep_parse'
 DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
 RESULTS = 'results'
-NEWSPIDER_MODULE = 'pep_parse.spiders'
 ROBOTSTXT_OBEY = True
 SPIDER_MODULES = ['pep_parse.spiders']
 FEEDS = {
