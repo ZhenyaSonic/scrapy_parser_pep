@@ -10,7 +10,7 @@
 Установка
 Клонируйте репозиторий локально:
 
-git clone git@github.com:Alexshifter/scrapy_parser_pep.git
+git clone git@github.com:ZhenyaSonic/scrapy_parser_pep.git
 Находясь в директории проекта разверните виртуальное окружение
 
 python -m venv venv
