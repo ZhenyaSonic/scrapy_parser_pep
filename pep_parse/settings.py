@@ -10,6 +10,7 @@ SPIDER_MODULES = ['pep_parse.spiders']
 FEEDS = {
     f'{RESULTS}/pep_%(time)s.csv': {
         'format': 'csv',
+        'encoding': 'utf-8',
         'overwrite': True,
         'fields': ['number', 'name', 'status'],
     }
