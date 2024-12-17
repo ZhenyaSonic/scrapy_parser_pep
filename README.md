@@ -15,31 +15,39 @@
 
 ```bash
 git clone git@github.com:ZhenyaSonic/scrapy_parser_pep.git
-
+```
 
 Перейдите в директорию проекта:
+```bash
 cd scrapy_parser_pep
 
 python -m venv venv
+```
 Запустите виртуальное окружение
-
+```bash
 source venv/Scripts/activate
-
+```
 Обновите pip
+```bash
 pip install --upgrade pip
-
+```
 Установите зависимости
+```bash
 pip install -r requirements.txt
-
+```
 Работа с приложением
 Запуск приложения
 
+```bash
 scrapy crawl pep
+```
 Файлы с результатами парсинга доступны в папке results:
-
+```bash
 cd results
+```
 Основные технологии
 Python 3.9.13, Scrapy 2.5.1
+```
 
 Автор
 Братанов Евгений https://github.com/ZhenyaSonic/
