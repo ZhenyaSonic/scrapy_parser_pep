@@ -5,7 +5,8 @@ BOT_NAME = 'pep_parse'
 DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
 RESULTS = 'results'
 ROBOTSTXT_OBEY = True
-SPIDER_MODULES = ['pep_parse.spiders']
+NEWSPIDER_MODULE = f'{BOT_NAME}.spiders'
+SPIDER_MODULES = [NEWSPIDER_MODULE]
 FEEDS = {
     f'{RESULTS}/pep_%(time)s.csv': {
         'format': 'csv',
